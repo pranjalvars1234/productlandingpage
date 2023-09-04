@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Your details</legend>
+        <ol>
+            <li>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="First and Last name"  >
+            </li>
+            <li>
+                <label for="Email">Email</label>
+                <input type="Email" id="Email" placeholder="example@domain.com">
+            </li>
+            <li>   
+                <label for="num">Phone</label>
+                <input type="tel" id="num" placeholder="Eg. +919745678823">
+            </li>
+        </ol>
+    </fieldset>
+   <fieldset>
+       <legend>Delivery Address</legend>
+         <ol>
+          <li>
+           <label for="pta">Address</label>
+            <textarea name="address" id="pta" cols="20" rows="10" placeholder="Enter Complete Address"></textarea>
+          </li>
+          <br/>
+          <li>
+           <label for="dig">Post code</label>
+              <input type="digit" id="dig">
+           </li>
+           <br/>   
+           <li>
+              <label for="Coun">Country</label>
+                <input type="text" id="coun">
+           </li>
+          </ol> 
+   </fieldset> 
+     
+    <fieldset>
+        <legend>Card Details</legend>
+        <ol>
+            <li>
+                <fieldset>
+                    <legend>Card Type</legend>
+                    <ol>
+                        <li>
+                            <label for="type">VISA</label>
+                            <input type="radio" name="radio" id="type">
+                        </li>
+                        <li>
+                            <label for="type">AmEx</label>
+                            <input type="radio"  name="radio" id="type">
+                        </li>
+                        <li>
+                            <label for="type">MasterCard</label>
+                            <input type="radio"  name="radio" id="type">
+                        </li>    
+                    </ol>
+                </fieldset>
+            </li>
+            <li>
+                <label for="num">Card number</label>
+                <input type="text" id="num">
+            </li>
+            <li>
+                <label for="code">Security Code</label>
+                <input type="text" id="code">
+            </li>
+            <li>
+                <label for="on">Name on card</label>
+                <input type="text" id="on">
+            </li>
+        </ol>
+    </fieldset>
+      <fieldset>
+        <input type="button" value="Buy it!">
+      </fieldset>
+</body>
+</html>
